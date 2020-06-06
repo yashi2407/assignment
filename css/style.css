@@ -1,0 +1,45 @@
+
+body {
+  padding-top: 56px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+header{
+  background: #323e4a;
+  height: 50vh;
+  color: white;
+}
+.btn-xl{
+  padding: 0.5rem 2.5rem;
+}
+.btn-new{
+  padding:0.5rem 4rem;
+  border-radius: 25px;
+}
+.btn-new1{
+  padding:0.5rem 6rem;
+  border-radius: 25px;
+}
+.navbar-dark{
+  background: #323e4a;
+}
+.navbar-nav{
+  display:flex;
+  justify-content: start;
+  align-items: center;
+}
+a.nav-link{
+  font-size: 1.2rem;
+  color: white;
+}
+ul.nav {
+   display:float;
+   float:right;
+
+}
+img.navbar-brand{
+    height: 100%;
+    width:30px;
+}
+.card:hover {
+  transform: scale(1.2); 
+}
